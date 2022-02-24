@@ -60,6 +60,12 @@ background: #FFD830;
 }
 
 
+.col_25{
+    width: 25%;
+    float:left;
+    padding:10px 0;
+}
+
 /* Utility */
 
 .clearfix::after{
@@ -101,6 +107,15 @@ background: #FFD830;
     background-color: green;
 }
 
+
+.debug .col_25{
+    margin:10px 0;
+    height:150px;
+    background-color:black;
+    border: 20px solid black;
+
+
+}
 .debug .navigation{
     height: 50px;
     background-color: blueviolet;
@@ -146,4 +161,25 @@ background: #FFD830;
 }
 
 
+
+.debug.designit{
+    height: 400px;
+    background-color: deeppink;
+}
+
+.debug .designit>.col_50{
+    height: 300px; 
+}
+
+
+.debug .designit>.col_25{
+    height: 300px;
+
+}
+
+
+.debug .brand>.col_50{
+    height:120px;
+    border: 10px solid black;
+}
 
