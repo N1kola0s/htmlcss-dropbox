@@ -8,8 +8,83 @@
     text-decoration: none;
 }
 
+/* Colors
+
+TEXT:
+
+background: #000000;
+background: #61082B;
+background: #65A0FF;
+
+BTN:
+
+background: #0061FF;
+
+BG_SECTION:
+
+background: #B4D0E7;
+background: #000000;
+background: #0093CE;
+background: #0D2481;
+background: #61082B;
+background: #A2D39B;
+background: #D5001F;
+background: #F5F5F5;
+background: #FF1C1C;
+background: #FFD830;
+*/
+
+
+
 /* Common rules */
 
-body{
+
+.col_50{
+    margin: 10px 0;
+    width: 50%;
+    float: left;
+}
+
+
+.col_33{
+    width: 33%;
+    float:left;
+    margin: 10px 0;
+}
+
+/* Utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.container{
+    width: 1200px;
+    margin:auto;
+}
+
+/* Header */
+
+/* .debug>header {
+    background-color: red;
+    height: 100px;
+} */
+.debug .navigation{
+    height: 50px;
+    background-color: blueviolet;
+}
+
+
+.debug .col_50{
+    height: 30px;
+    background-color: yellow;
     
 }
+
+
+
+
+
+
