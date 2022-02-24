@@ -91,14 +91,14 @@ background: #FFD830;
 .debug .col_100{
     margin:10px 0;
     height: 140px;
-    background-color: beige;
+    background-color:green;
 }
 
 
 .debug .col_33{
     margin:10px 2px;
     height:626px;
-    background-color: beige;
+    background-color: green;
 }
 
 .debug .navigation{
@@ -115,16 +115,35 @@ background: #FFD830;
 
 .debug .business{
     height:1000px;
-    background-color: brown;
+    background-color:dimgrey;
 }
 
 
 .debug .partner{
     height:300px;
-    background-color: coral;
+    background-color:palegreen;
 }
 
 
 .debug .partner>.col_50{
     height: 278px;
 }
+
+
+
+.debug .tools>.col_100{
+    height:100px;
+
+}
+
+
+.debug .tools{
+    background-color: darkorange;
+}
+
+.debug .tools>.col_33{
+    height: 325px;
+}
+
+
+
