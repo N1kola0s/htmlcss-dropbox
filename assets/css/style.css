@@ -1,4 +1,5 @@
-/* General rules */
+/* General rules 
+*******************/
 
 *{
     margin: 0;
@@ -8,19 +9,20 @@
     text-decoration: none;
 }
 
-/* Colors
+/* Colors*/
 
-TEXT:
+:root {
+    --txt_primary-color: #000000;
+    --txt_secondary-color: #61082B;
+    --txt_tertiary-color: #65A0FF; 
+    --btn-color: #0061FF; 
+    --bg_primary-color: #FFFFFF;
+    --bg_secondary-color: #B4D0E7; 
+    --bg_footer-color: #000000;
+    
+}
 
-background: #000000;
-background: #61082B;
-background: #65A0FF;
-
-BTN:
-
-background: #0061FF;
-
-BG_SECTION:
+/* designit section 
 
 background: #B4D0E7;
 background: #000000;
@@ -32,11 +34,27 @@ background: #D5001F;
 background: #F5F5F5;
 background: #FF1C1C;
 background: #FFD830;
+
 */
 
+/* Utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.container{
+    width: 1200px;
+    margin:auto;
+}
 
 
-/* Common rules */
+/* Common rules
+******************/
+
+/* columns */
 
 
 .col_100 {
@@ -73,26 +91,23 @@ background: #FFD830;
     padding:10px 0;
 }
 
-/* Utility */
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear:both;
+.col_20{
+    width: 20%;
+    float:left;
+    padding:10px 0;
+
 }
 
-.container{
-    width: 1200px;
-    margin:auto;
+
+.col_15{
+    width: 15%;
+    float:left;
+    padding:10px 0;
 }
 
-/* Header */
 
-/* .debug>header {
-    background-color: red;
-    height: 100px;
-} */
-
+/* Debug */
 
 .debug .col_50{
     margin:10px 0;
@@ -227,3 +242,27 @@ background: #FFD830;
     margin:0;
 
 }
+
+
+
+.debug .site_map{
+    height:600px;
+    background-color: black;
+
+}
+
+
+.debug .site_map>.col_20 {
+    height: 500px;
+    margin:10px 0;
+    background-color:darkkhaki;
+    border:10px solid black;
+}
+
+
+.debug .site_map>.col_100 {
+    background-color:darkkhaki;
+    border:10px solid black;
+}
+
+
