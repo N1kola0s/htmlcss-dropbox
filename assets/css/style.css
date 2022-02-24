@@ -46,6 +46,13 @@ background: #FFD830;
     padding:10px 0;
 }
 
+
+.col_75{
+    width: 75%;
+    float:left;
+    padding:10px 0;
+}
+
 .col_50{
     width: 50%;
     float: left;
@@ -112,10 +119,17 @@ background: #FFD830;
     margin:10px 0;
     height:150px;
     background-color:black;
-    border: 20px solid black;
-
-
+    border: 3px solid black;
 }
+
+
+.debug .col_75{
+    /* height:626px; */
+    background-color: green;
+    border:3px solid black;
+}
+
+
 .debug .navigation{
     height: 50px;
     background-color: blueviolet;
@@ -162,8 +176,8 @@ background: #FFD830;
 
 
 
-.debug.designit{
-    height: 400px;
+.debug .designit{
+    height: 320px;
     background-color: deeppink;
 }
 
@@ -183,3 +197,33 @@ background: #FFD830;
     border: 10px solid black;
 }
 
+
+.debug .enterprise{
+
+    height:220px;
+    background-color: aqua;
+}
+
+.debug .enterprise>.col_50{
+    height:200px;
+    background-color: azure;
+    border: 10px solid black;
+}
+
+.debug .faq{
+    height: 220px;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+
+.debug .faq>.col_75{
+    height:200px;
+
+}
+
+.debug .faq>.col_25{
+    height: 200px;
+    margin:0;
+
+}
