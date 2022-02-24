@@ -39,18 +39,26 @@ background: #FFD830;
 /* Common rules */
 
 
+.col_100 {
+    
+    width: 100%;
+    float:left;
+    padding:10px 0;
+}
+
 .col_50{
-    margin: 10px 0;
     width: 50%;
     float: left;
+    padding:10px 0;
 }
 
 
 .col_33{
     width: 33%;
     float:left;
-    margin: 10px 0;
+    padding:10px 0;
 }
+
 
 /* Utility */
 
@@ -78,13 +86,37 @@ background: #FFD830;
 
 
 .debug .col_50{
+    margin:10px 0;
     height: 30px;
     background-color: yellow;
     
 }
 
 
+.debug .hero{
+    height:500px;
+    background-color: cornflowerblue;
+}
 
+
+.debug .business{
+    height:1000px;
+    background-color: brown;
+}
+
+
+.debug .col_100{
+    margin:10px 0;
+    height: 140px;
+    background-color: beige;
+}
+
+
+.debug .col_33{
+    margin:10px 2px;
+    height:626px;
+    background-color: beige;
+}
 
 
 
