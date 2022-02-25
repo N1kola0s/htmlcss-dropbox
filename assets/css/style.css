@@ -60,23 +60,14 @@ background: #FFD830;
     clear:both;
 }
 
-/* Common rules
-******************/
-
-body{ 
-    min-width: 1440px;
-}
 
 
-a{
-    color:var(--txt_primary-color);
-}
 /*#region columns */
 
 
 [class*="col_"]{
     float:left;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 .col_100 {
@@ -286,20 +277,27 @@ a{
 /*#endregion*/
 
 
-/* Header */
+/* Common rules
+******************/
 
-header{
-    padding: 0.8rem;
+body{ 
+    min-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 
-.navbar .menu_left a,
-.navbar .menu_right a{
-    padding: 0.5rem 2.3rem;
+a{
+    color:var(--txt_primary-color);
 }
 
-/* Text */
 
+img{
+    max-width: 100%;
+}
+
+
+/*#region Text */
 
 ul.inline_list{
     display:inline-block;
@@ -321,16 +319,27 @@ ul.inline_list>li{
     text-align:right;
 }
 
+/* #endregion */
 
-.logo>img{
-    vertical-align:sub;
+
+/* #region Spaces */
+
+
+.px_1{
+    padding:0 1rem;
+
 }
+
+
+/* #endregion */
+
+
 /*#region Buttons */
 
 
 .btn{
     display:inline-block;
-    font: 0.8rem;
+    font-size:14px;
     padding:0.5rem 1.2rem;
 }
 
@@ -340,15 +349,78 @@ ul.inline_list>li{
     color:var(--bg_primary-color);
 }
 
-
-
-
 /* #endregion */
 
 
 
+/*#region Header */
 
-/* Main */
+header{
+    padding: 0.8rem;
+}
 
 
-/* Footer */
+.navbar .menu_left a,
+.navbar .menu_right a{
+    padding: 0.5rem 2.3rem;
+}
+
+
+.navbar .btn{
+    font-size: 12px;
+}
+
+.logo>img{
+    vertical-align:sub;
+}
+
+/* #endregion */
+
+
+/*#region Main */
+
+
+.hero{
+    height: 41.375rem;
+    background-color: var(--bg_secondary-color);
+}
+
+.hero h1{
+    font-size: 4.20rem;
+    padding-top: 96px; 
+}
+
+.container_lg{
+    max-width: 1160px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.hero_text p{
+    padding:60px 0 20px;
+}
+
+
+.hero_cta>p{
+    font-size:14px;
+    padding-top: 12px;
+}
+
+
+.hero .down_arrow{
+    padding-top:42px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.hero img{
+    padding-top: 60px;
+}
+/* #endregion */
+
+
+/*#region Footer */
+
+/* #endregion */
