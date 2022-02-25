@@ -67,7 +67,7 @@ body{
 /* columns */
 
 
-[class^="col_"]{
+[class*="col_"]{
     float:left;
     border: 5px solid white;
 }
@@ -273,5 +273,5 @@ body{
 
 .debug .brand{
     height:300px;
-    background-color: #000000;
+    background-color: #00ff80;
 }
