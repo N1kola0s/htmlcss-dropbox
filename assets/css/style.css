@@ -37,7 +37,11 @@ background: #FFD830;
 
 */
 
-/* Utility */
+
+
+
+/* Utility
+*************/
 
 .container{
     width: 80%;
@@ -56,7 +60,6 @@ background: #FFD830;
     clear:both;
 }
 
-
 /* Common rules
 ******************/
 
@@ -64,7 +67,11 @@ body{
     min-width: 1440px;
 }
 
-/* columns */
+
+a{
+    color:var(--txt_primary-color);
+}
+/*#region columns */
 
 
 [class*="col_"]{
@@ -122,10 +129,10 @@ body{
     
 }
 
+/*#endregion*/
 
-/* Debug */
 
-
+/*#region Debug*/
 
 .debug>header{
     min-height: 100px;
@@ -275,3 +282,73 @@ body{
     min-height:300px;
     background-color: #00ff80;
 }
+
+/*#endregion*/
+
+
+/* Header */
+
+header{
+    padding: 0.8rem;
+}
+
+
+.navbar .menu_left a,
+.navbar .menu_right a{
+    padding: 0.5rem 2.3rem;
+}
+
+/* Text */
+
+
+ul.inline_list{
+    display:inline-block;
+}
+ul.inline_list>li{
+    display:inline-block;
+}
+
+.text_left{
+    text-align: left;
+}
+
+
+.text_center{
+    text-align:center;
+}
+
+.text_right{
+    text-align:right;
+}
+
+
+.logo>img{
+    vertical-align:sub;
+}
+/*#region Buttons */
+
+
+.btn{
+    display:inline-block;
+    font: 0.8rem;
+    padding:0.5rem 1.2rem;
+}
+
+
+.btn_primary{
+    background-color: var(--btn-color);
+    color:var(--bg_primary-color);
+}
+
+
+
+
+/* #endregion */
+
+
+
+
+/* Main */
+
+
+/* Footer */
