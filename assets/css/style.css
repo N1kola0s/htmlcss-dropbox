@@ -39,198 +39,216 @@ background: #FFD830;
 
 /* Utility */
 
-.clearfix::after{
+.container{
+    width: 80%;
+    max-width: 960px;
+    margin:auto;
+}
+
+
+.row{
+    width: 100%;
+}
+
+.row::after{
     content: "";
     display: table;
     clear:both;
-}
-
-.container{
-    width: 1200px;
-    margin:auto;
 }
 
 
 /* Common rules
 ******************/
 
+body{ 
+    min-width: 1440px;
+}
+
 /* columns */
 
+
+[class^="col_"]{
+    float:left;
+    border: 5px solid white;
+}
 
 .col_100 {
     
     width: 100%;
-    float:left;
-    padding:10px 0;
+    
 }
 
 
 .col_75{
     width: 75%;
-    float:left;
-    padding:10px 0;
+   
+}
+
+
+.col_60{
+    width: 60%;
 }
 
 .col_50{
     width: 50%;
-    float: left;
-    padding:10px 0;
+   
 }
 
 
+.col_40{
+    width: 40%;
+}
+
 .col_33{
     width: 33%;
-    float:left;
-    padding:10px 0;
+   
 }
 
 
 .col_25{
     width: 25%;
-    float:left;
-    padding:10px 0;
+    
 }
 
 
 .col_20{
     width: 20%;
-    float:left;
-    padding:10px 0;
+   
 
 }
 
-
 .col_15{
     width: 15%;
-    float:left;
-    padding:10px 0;
+    
 }
 
 
 /* Debug */
 
+
+
+.debug>header{
+    height: 100px;
+
+}
+
+.debug>main{
+    height: 3400px;
+
+}
+
+.debug>footer{
+    height:500px;
+} 
+
+
+.debug .col_20{
+    height:300px;
+}
+
+.debug .col_25{
+    height:300px;
+    background-color: darkcyan;
+}
+
+.debug .col_33{
+    height:200px;
+    background-color: green;
+}
+
+.debug .col_40{
+    height:300px;
+    background-color:blue;
+}
+
 .debug .col_50{
-    margin:10px 0;
-    height: 30px;
+    height: 100px;
     background-color: yellow;
     
 }
 
+.debug .col_60{
+    height: 300px;;
+    background-color: #61082B;
+
+}
+
+.debug .col_75{
+
+    background-color: green;
+    height: 300px;
+}
+
+
 .debug .col_100{
-    margin:10px 0;
     height: 140px;
     background-color:green;
 }
 
 
-.debug .col_33{
-    margin:10px 2px;
-    height:626px;
-    background-color: green;
-}
-
-
-.debug .col_25{
-    margin:10px 0;
-    height:150px;
-    background-color:black;
-    border: 3px solid black;
-}
-
-
-.debug .col_75{
-    /* height:626px; */
-    background-color: green;
-    border:3px solid black;
-}
-
-
 .debug .navigation{
-    height: 50px;
+    height: 100px;
     background-color: blueviolet;
 }
 
 
 .debug .hero{
-    height:500px;
+    height:600px;
     background-color: cornflowerblue;
 }
 
 
 .debug .business{
-    height:1000px;
+    height:600px;
     background-color:dimgrey;
 }
 
 
 .debug .partner{
-    height:300px;
+    height:400px;
     background-color:palegreen;
 }
 
-
-.debug .partner>.col_50{
-    height: 278px;
-}
-
-
-
-.debug .tools>.col_100{
-    height:100px;
-
-}
-
-
 .debug .tools{
+
+    height:500px;
     background-color: darkorange;
 }
 
-.debug .tools>.col_33{
-    height: 325px;
-}
-
-
-
-.debug .designit{
-    height: 320px;
-    background-color: deeppink;
-}
-
-.debug .designit>.col_50{
-    height: 300px; 
-}
-
-
-.debug .designit>.col_25{
-    height: 300px;
+.debug .teams{
+    height:800px;
+    background-color:deeppink;
 
 }
 
-
-.debug .brand>.col_50{
-    height:120px;
-    border: 10px solid black;
-}
-
-
-.debug .enterprise{
-
-    height:220px;
+.debug .cta{
+    height:100px;
     background-color: aqua;
 }
 
-.debug .enterprise>.col_50{
+.debug .faq{
+    height: 400px;
+    background-color: burlywood;
+    
+}
+
+.debug .site_map{
+    height:500px;
+    background-color: black;
+
+}
+
+
+.debug .site_map>.col_20{
+    border: 2px solid white;
+
+}
+
+.debug .cta>.col_50{
     height:200px;
     background-color: azure;
     border: 10px solid black;
 }
-
-.debug .faq{
-    height: 220px;
-    background-color: burlywood;
-    padding: 10px;
-}
-
 
 .debug .faq>.col_75{
     height:200px;
@@ -244,25 +262,16 @@ background: #FFD830;
 }
 
 
-
-.debug .site_map{
+.debug .teams .row>.col_50{
     height:600px;
-    background-color: black;
+}
 
+.debug .teams .row>.col_25{
+    height:600px;
 }
 
 
-.debug .site_map>.col_20 {
-    height: 500px;
-    margin:10px 0;
-    background-color:darkkhaki;
-    border:10px solid black;
+.debug .brand{
+    height:300px;
+    background-color: #000000;
 }
-
-
-.debug .site_map>.col_100 {
-    background-color:darkkhaki;
-    border:10px solid black;
-}
-
-
