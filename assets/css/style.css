@@ -128,47 +128,47 @@ body{
 
 
 .debug>header{
-    height: 100px;
+    min-height: 100px;
 
 }
 
 .debug>main{
-    height: 3400px;
+    min-height: 3400px;
 
 }
 
 .debug>footer{
-    height:500px;
+    min-height:500px;
 } 
 
 
 .debug .col_20{
-    height:300px;
+    min-height:300px;
 }
 
 .debug .col_25{
-    height:300px;
+    min-height:300px;
     background-color: darkcyan;
 }
 
 .debug .col_33{
-    height:200px;
+    min-height:200px;
     background-color: green;
 }
 
 .debug .col_40{
-    height:300px;
+    min-height:300px;
     background-color:blue;
 }
 
 .debug .col_50{
-    height: 100px;
+    min-height: 100px;
     background-color: yellow;
     
 }
 
 .debug .col_60{
-    height: 300px;;
+    min-height: 300px;;
     background-color: #61082B;
 
 }
@@ -176,64 +176,64 @@ body{
 .debug .col_75{
 
     background-color: green;
-    height: 300px;
+    min-height: 300px;
 }
 
 
 .debug .col_100{
-    height: 140px;
+    min-height: 140px;
     background-color:green;
 }
 
 
 .debug .navigation{
-    height: 100px;
+    min-height: 100px;
     background-color: blueviolet;
 }
 
 
 .debug .hero{
-    height:600px;
+    min-height:600px;
     background-color: cornflowerblue;
 }
 
 
 .debug .business{
-    height:600px;
+    min-height:600px;
     background-color:dimgrey;
 }
 
 
 .debug .partner{
-    height:400px;
+    min-height:400px;
     background-color:palegreen;
 }
 
 .debug .tools{
 
-    height:500px;
+    min-height:500px;
     background-color: darkorange;
 }
 
 .debug .teams{
-    height:800px;
+    min-height:800px;
     background-color:deeppink;
 
 }
 
 .debug .cta{
-    height:100px;
+    min-height:100px;
     background-color: aqua;
 }
 
 .debug .faq{
-    height: 400px;
+    min-height: 400px;
     background-color: burlywood;
     
 }
 
 .debug .site_map{
-    height:500px;
+    min-height:500px;
     background-color: black;
 
 }
@@ -245,33 +245,33 @@ body{
 }
 
 .debug .cta>.col_50{
-    height:200px;
+    min-height:200px;
     background-color: azure;
     border: 10px solid black;
 }
 
 .debug .faq>.col_75{
-    height:200px;
+    min-height:200px;
 
 }
 
 .debug .faq>.col_25{
-    height: 200px;
+    min-height: 200px;
     margin:0;
 
 }
 
 
 .debug .teams .row>.col_50{
-    height:600px;
+    min-height:600px;
 }
 
 .debug .teams .row>.col_25{
-    height:600px;
+    min-height:600px;
 }
 
 
 .debug .brand{
-    height:300px;
+    min-height:300px;
     background-color: #00ff80;
 }
