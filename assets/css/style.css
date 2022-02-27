@@ -1,5 +1,6 @@
-/* General rules 
-*******************/
+/*************** 
+ GENERAL RULES 
+****************/
 
 *{
     margin: 0;
@@ -40,8 +41,9 @@ background: #FFD830;
 
 
 
-/* Utility
-*************/
+/*******
+ UTILITY 
+********/
 
 .container{
     width: 80%;
@@ -59,7 +61,6 @@ background: #FFD830;
     display: table;
     clear:both;
 }
-
 
 
 /*#region columns */
@@ -277,8 +278,9 @@ background: #FFD830;
 /*#endregion*/
 
 
-/* Common rules
-******************/
+/******** 
+ COMMON 
+*********/
 
 body{ 
     min-width: 1440px;
@@ -297,11 +299,16 @@ img{
 }
 
 
+
+/*#region Text */
+
+h2{
+    font-size: 36px;
+}
+
 h4{
     font-size:22px;
 }
-
-/*#region Text */
 
 ul.inline_list{
     display:inline-block;
@@ -323,8 +330,6 @@ ul.inline_list>li{
     text-align:right;
 }
 
-
-
 .i_blue{
     color:var(--btn-color);
 }
@@ -341,7 +346,6 @@ ul.inline_list>li{
     padding:0 1rem;
 }
 
-
 .px_2{
     padding:0 2rem;
 
@@ -351,6 +355,9 @@ ul.inline_list>li{
     padding:1.5rem 0;
 }
 
+.mg_left{
+    margin-left: 3.875rem;
+}
 
 
 /* #endregion */
@@ -457,7 +464,7 @@ header{
 
 .business_text>h2{
     padding: 191px 0 64px;
-    font-size: 36px;
+    
 }
 
 .fa.fa-circle-thin{
@@ -471,11 +478,6 @@ header{
     border:0.5px solid lightgrey;
 }
 
-
-.planes .col_team{
-    margin-left: 62px;
-
-}
 
 .planes {
     padding:35px 0;
@@ -586,6 +588,7 @@ div.entities{
     font-weight: 600;
   }
 
+
 /* partner section */
 
 
@@ -604,7 +607,24 @@ section.partner{
     padding-top: 1.5rem;
 }
 
+/* Tools */
 
+.tools h2{
+    padding-bottom:3.75rem;
+}
+
+.tools_text{
+    padding:1.375rem 0 6.875rem;
+}
+
+.tools_text>p {
+    padding-top: 1.875rem;
+    font-size:14px;
+}
+
+.tools_text p>span {
+    text-decoration: underline;
+}
 /* #endregion */
 
 
