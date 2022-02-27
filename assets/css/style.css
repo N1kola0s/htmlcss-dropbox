@@ -98,7 +98,7 @@ background: #FFD830;
 }
 
 .col_33{
-    width: 33%;
+    width: 29%;
    
 }
 
@@ -319,6 +319,14 @@ ul.inline_list>li{
     text-align:right;
 }
 
+
+
+.i_blue{
+    color:var(--btn-color);
+}
+
+
+
 /* #endregion */
 
 
@@ -327,8 +335,18 @@ ul.inline_list>li{
 
 .px_1{
     padding:0 1rem;
+}
+
+
+.px_2{
+    padding:0 2rem;
 
 }
+
+.py_1 {
+    padding:1.5rem 0;
+}
+
 
 
 /* #endregion */
@@ -350,7 +368,6 @@ ul.inline_list>li{
 }
 
 /* #endregion */
-
 
 
 /*#region Header */
@@ -380,6 +397,8 @@ header{
 /*#region Main */
 
 
+/* Hero section */
+
 .hero{
     height: 41.375rem;
     background-color: var(--bg_secondary-color);
@@ -397,6 +416,7 @@ header{
 }
 
 
+
 .hero_text p{
     padding:60px 0 20px;
 }
@@ -410,14 +430,143 @@ header{
 
 .hero .down_arrow{
     padding-top:42px;
-    font-size: 30px;
-    font-weight: bold;
+    font-size:2rem;
 }
 
 
 .hero img{
     padding-top: 60px;
 }
+
+
+/* Business Section */
+
+
+.business_text>h2{
+    padding: 191px 0 64px;
+    font-size: 36px;
+}
+
+.fa.fa-circle-thin{
+
+    padding-left: 14px;
+}
+
+
+.planes [class^="col_"]{
+
+    border:0.5px solid lightgrey;
+}
+
+
+.planes .col_team{
+    margin-left: 62px;
+
+}
+
+.planes {
+    padding:35px 0;
+}
+
+.planes .col_100 {
+    margin-top: 2.75rem;;
+}
+
+
+
+div.entities{
+    text-align:center;
+    padding:10px 100px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+
+.level_top{
+    max-width: 232px;
+    margin:auto;
+}
+
+.level_bottom{
+
+    padding:0 27px;
+    margin:auto;
+}
+
+
+
+.level h4{
+    font-size: 22px;
+    padding-top: 1.5rem;
+
+}
+
+
+.level h5{
+    font-size: 14px;
+}
+
+.level_text div, .lv_recap li{
+    font-size: 12px;
+}
+
+
+.lv_price{
+
+    line-height: 1.5rem;
+}
+
+
+.lv_price .freq{
+    color: darkgray;
+}
+
+.lv_cta{
+    padding:1.5rem 0;
+    text-align: center;
+
+}
+
+
+
+.lv_cta p>a{
+ text-decoration: underline;
+ color:var(--btn-color);
+
+}
+
+.lv_cta hr{
+    max-width: 20%;
+    color:darkgray;
+}
+
+.lv_recap ul{
+
+    padding: 0;
+  }
+
+.lv_recap li{
+    padding: 0 0.975rem 1.5rem;
+    
+  }
+
+.lv_recap  li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+    color:var(--btn-color);
+    font-weight: 600;
+  }
+
+  
+  .level_bottom .col_100{
+      border: none;
+
+
+  }
+
+
 /* #endregion */
 
 
