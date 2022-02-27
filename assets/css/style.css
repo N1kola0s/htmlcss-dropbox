@@ -297,6 +297,10 @@ img{
 }
 
 
+h4{
+    font-size:22px;
+}
+
 /*#region Text */
 
 ul.inline_list{
@@ -366,6 +370,15 @@ ul.inline_list>li{
     background-color: var(--btn-color);
     color:var(--bg_primary-color);
 }
+
+
+.btn_secondary{
+
+    background-color: var(--bg_primary-color);
+    color:var(--txt_primary-color);
+    border:2px solid darkgray;
+}
+
 
 /* #endregion */
 
@@ -469,7 +482,7 @@ header{
 }
 
 .planes .col_100 {
-    margin-top: 2.75rem;;
+    margin-top: 2.75rem;
 }
 
 
@@ -502,7 +515,7 @@ div.entities{
 
 
 .level_bottom .btn{
-    padding:0.3rem 2rem; 
+    padding:0.4rem 2rem; 
 }
 
 
@@ -542,8 +555,6 @@ div.entities{
 
 }
 
-
-
 .lv_cta p>a{
  text-decoration: underline;
  color:var(--btn-color);
@@ -575,10 +586,23 @@ div.entities{
     font-weight: 600;
   }
 
-  
+/* partner section */
 
 
-  }
+section.partner{
+    margin: 134px 0 108px;
+
+}
+
+.partner_cta, .partner_text{
+    padding-left: 3rem;
+    
+}
+
+
+.partnter_text>p {
+    padding-top: 1.5rem;
+}
 
 
 /* #endregion */
