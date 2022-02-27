@@ -67,7 +67,7 @@ background: #FFD830;
 
 [class*="col_"]{
     float:left;
-    /* border: 5px solid white; */
+    
 }
 
 .col_100 {
@@ -478,6 +478,7 @@ div.entities{
     text-align:center;
     padding:10px 100px;
     border-bottom: 0.5px solid lightgray;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -494,14 +495,25 @@ div.entities{
 
 
 
-.level h4{
+.level_bottom [class^="col_"]{
+    border:hidden;
+    font-size: 12px;
+}
+
+
+.level_bottom .btn{
+    padding:0.3rem 2rem; 
+}
+
+
+
+.level_top, .level_bottom h4{
     font-size: 22px;
-    padding-top: 1.5rem;
 
 }
 
 
-.level h5{
+.lv_recap>h5{
     font-size: 14px;
 }
 
@@ -509,6 +521,10 @@ div.entities{
     font-size: 12px;
 }
 
+
+.lv_recap div{
+    padding-bottom: 1.5rem;
+}
 
 .lv_price{
 
@@ -560,8 +576,6 @@ div.entities{
   }
 
   
-  .level_bottom .col_100{
-      border: none;
 
 
   }
