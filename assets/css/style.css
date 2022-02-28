@@ -27,7 +27,7 @@
     --bg_teams_quaternary-color: #FF1C1C;
     --bg_teams_quinary-color: #F5F5F5;
     --bg_teams_senary-color: #D5001F;
-    --bg_teams_septenart-color: #B4D0E7;
+    --bg_teams_septenary-color: #B4D0E7;
     --bg_teams_octonary-color: #0D2481;
     --bg_teams_nonary-color: #FFD830;
 
@@ -639,10 +639,11 @@ section.partner{
     text-decoration: underline;
 }
 
+
+
 .brand{
-    width: 216px;
     height: 216px;
-}
+} 
 
 .brand.col_50{
     position:relative;
@@ -664,6 +665,88 @@ section.partner{
 .brand.primary{
     background-color:var(--bg_teams_primary-color);
     border: 12px solid var(--border_teams_primary-color);
+}
+
+.brand.secondary{
+    background-color: var(--bg_teams_secondary-color);
+}
+
+.brand.tertiary{
+    background-color: var(--bg_teams_tertiary-color);
+}
+
+.brand.quaternary{
+    background-color: var(--bg_teams_quaternary-color)
+}
+
+.quinary{
+    background-color: var(--bg_teams_quinary-color);
+    min-height:432px;
+    
+}
+
+.quinary_container{
+    margin:auto;
+    padding: 44px 44px 0;
+}
+
+.quinary_img{
+    width: 124px;
+    padding-bottom: 32px;
+}
+
+.quinary_text{
+    padding:46px 0;
+}
+
+.quinary_text>p{
+    padding-bottom:46px;
+
+}
+
+.quinary_container>hr{
+    max-width: 6.5%;
+    color:darkgray;
+}
+
+.brand.senary{
+    background-color: var(--bg_teams_senary-color);
+}
+
+.brand.septenary{
+    background-color: var(--bg_teams_septenary-color);
+}
+
+.brand.octonary{
+    background-color: var(--bg_teams_octonary-color) ;
+}
+
+.brand.nonary{
+    background-color: var(--bg_teams_nonary-color);
+}
+
+/* cta */
+
+.cta{
+    background-color: var(--bg_secondary-color);
+}
+
+.cta h2{
+    color:var(--txt_secondary-color);
+    padding: 122px 0;
+}
+
+.cta .right{
+    position:relative;
+}
+
+.cta a{
+    
+    border: hidden;
+    padding: 0.4rem 3.75rem;
+    position:absolute;
+    top:120px;
+    left:40%;
 }
 
 
