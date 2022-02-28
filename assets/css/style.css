@@ -820,4 +820,26 @@ footer li{
     line-height: 1.5rem;
 }
 
+
+.leng div, .leng p{
+    display: inline-block;
+}
+
+
+
+.footer_top{
+    padding-bottom:6.1rem;
+
+}
+
+.footer_bottom {
+    width: 120px;
+    padding: 3rem 0;
+    border-top:0.3px solid lightgrey;
+    
+}
+
+
+
+
 /* #endregion */
