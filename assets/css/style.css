@@ -73,6 +73,10 @@
 }
 
 
+.col_90{
+    width: 90%;
+}
+
 .col_75{
     width: 75%;
    
@@ -98,22 +102,21 @@
    
 }
 
-
 .col_25{
-    width: 25%;
-    
+    width: 25%;    
 }
-
 
 .col_20{
     width: 20%;
-   
-
 }
 
 .col_15{
     width: 15%;
-    
+}
+
+
+.col_10{
+    width: 10%;
 }
 
 /*#endregion*/
@@ -348,6 +351,12 @@ ul.inline_list>li{
 
 .py_1 {
     padding:1.5rem 0;
+}
+
+
+.py_2{
+    padding:2.125rem 0;
+
 }
 
 .mg_left{
@@ -630,7 +639,7 @@ section.partner{
 
 .teams_text{
     max-width: 530px;
-    margin-top: 4.375;
+    margin: 4.375rem 0 2.875rem;
 }
 
 
@@ -747,6 +756,34 @@ section.partner{
     position:absolute;
     top:120px;
     left:40%;
+}
+
+/* faq */
+
+
+section.faq{
+    margin: 7.375rem 0;
+}
+
+
+.faq h2{
+    padding-bottom:3.125rem;
+}
+
+.b_top{
+    border-top: 0.3px solid lightgrey;
+}
+
+
+.b_bott{
+    border-bottom: 0.3px solid lightgrey;
+
+}
+
+
+.faq_icon{
+    padding:2.125rem 0;
+    text-align: center;
 }
 
 
