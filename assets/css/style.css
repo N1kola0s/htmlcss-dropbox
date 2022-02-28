@@ -16,7 +16,10 @@
     --txt_primary-color: #000000;
     --txt_secondary-color: #61082B;
     --txt_tertiary-color: #65A0FF; 
+    --txt_quaternary-color: #FFFFFF;
+
     --btn-color: #0061FF; 
+
     --bg_primary-color: #FFFFFF;
     --bg_secondary-color: #B4D0E7; 
     --bg_footer-color: #000000;
@@ -786,15 +789,35 @@ section.faq{
     text-align: center;
 }
 
-
-
-
-
-
-
 /* #endregion */
 
 
 /*#region Footer */
+
+footer{
+    background-color: var(--bg_footer-color);
+    color:var(--txt_quaternary-color);
+}
+
+
+footer .container_lg{
+    padding-top:3.875rem;
+}
+
+
+.footer_text{
+    padding-right:4rem;
+}
+
+footer h4{
+    font-size: 18px;
+    padding: 27px 0;
+}
+
+
+footer li{
+    font-size: 12px;
+    line-height: 1.5rem;
+}
 
 /* #endregion */
