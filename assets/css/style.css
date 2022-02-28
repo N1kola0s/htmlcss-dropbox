@@ -17,6 +17,8 @@
     --txt_secondary-color: #61082B;
     --txt_tertiary-color: #65A0FF; 
     --txt_quaternary-color: #FFFFFF;
+    --txt_quinary-color: lightgrey;
+
 
     --btn-color: #0061FF; 
 
@@ -337,7 +339,7 @@ ul.inline_list>li{
 
 
 .i_grey {
-    color:lightgray;
+    color:var(--txt_quinary-color);
 }
 
 
@@ -394,7 +396,7 @@ ul.inline_list>li{
 
     background-color: var(--bg_primary-color);
     color:var(--txt_primary-color);
-    border:2px solid darkgray;
+    border:2px solid var(--txt_quinary-color);
 }
 
 
@@ -486,7 +488,7 @@ header{
 
 .planes [class^="col_"]{
 
-    border:0.5px solid lightgrey;
+    border:0.5px solid var(--txt_quinary-color);
 }
 
 .planes [class^="col_33"]{
@@ -507,7 +509,7 @@ header{
 div.entities{
     text-align:center;
     padding:10px 100px;
-    border-bottom: 0.5px solid lightgray;
+    border-bottom: 0.5px solid var(--txt_quinary-color);
     margin-bottom: 1.5rem;
 }
 
@@ -778,12 +780,12 @@ section.faq{
 }
 
 .b_top{
-    border-top: 0.3px solid lightgrey;
+    border-top: 0.3px solid var(--txt_quinary-color);
 }
 
 
 .b_bott{
-    border-bottom: 0.3px solid lightgrey;
+    border-bottom: 0.3px solid var(--txt_quinary-color);
 
 }
 
@@ -839,8 +841,8 @@ footer li{
 .footer_bottom {
     width: 120px;
     padding: 3rem 0;
-    border-top:0.3px solid lightgrey;
-    color:lightgrey;
+    border-top:0.3px solid var(--txt_quinary-color);
+    color:var(--txt_quinary-color);
     
 }
 
