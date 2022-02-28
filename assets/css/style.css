@@ -336,6 +336,10 @@ ul.inline_list>li{
 }
 
 
+.i_grey {
+    color:lightgray;
+}
+
 
 /* #endregion */
 
@@ -593,8 +597,8 @@ div.entities{
     content: "\f00c"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: -1.3em; /* same as padding-left set on li */
-    width: 1.3em; /* same as padding-left set on li */
+    margin-left: -1.3em; 
+    width: 1.3em; 
     color:var(--btn-color);
     font-weight: 600;
   }
@@ -836,9 +840,14 @@ footer li{
     width: 120px;
     padding: 3rem 0;
     border-top:0.3px solid lightgrey;
+    color:lightgrey;
     
 }
 
+
+footer .up_arrow>i{
+    vertical-align: sub;
+}
 
 
 
